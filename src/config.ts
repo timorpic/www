@@ -84,7 +84,6 @@ export default {
   DNSOptimization: [
     'https://i0.wp.com',
     'https://cn.cravatar.com',
-    'https://analytics.vvhan.com',
     'https://vh-api.4ce.cn',
     'https://registry.npmmirror.com',
     'https://pagead2.googlesyndication.com'
@@ -104,8 +103,6 @@ export default {
       serverURL: ''
     }
   },
-  // Han Analytics 统计（https://github.com/timor/HanAnalytics）
-  HanAnalytics: { enable: false, server: 'https://analytics.timor.eu.org', siteId: 'Hello-HanHexoBlog' },
   // Google 广告
   GoogleAds: {
     ad_Client: '', //ca-pub-xxxxxx
