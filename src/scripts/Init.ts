@@ -31,8 +31,6 @@ import initTalking from "@/scripts/Talking";
 import { checkComment, commentInit } from "@/scripts/Comment";
 // 移动端侧边栏初始化
 import initMobileSidebar from "@/scripts/MobileSidebar";
-// Google 广告
-import GoogleAdInit from "@/scripts/GoogleAd";
 //  谷歌 SEO 推送
 import SeoPushInit from "@/scripts/SeoPush";
 // SmoothScroll 滚动优化
@@ -69,8 +67,6 @@ const indexInit = async (only: boolean = true) => {
   initFriends();
   // 动态说说初始化
   initTalking();
-  // Google 广告
-  GoogleAdInit();
   // 谷歌 SEO 推送
   SeoPushInit();
   // 文章评论初始化
